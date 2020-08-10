@@ -6,4 +6,4 @@ Exemples d'extensibilité pour installation _OnPremise_ de la solution Altazion
 Les modules d'extensibilités développés pour Commerce sont aussi utilisé pour Store & Signage pour toutes les applications de commande. 
 
 ### Panier
-- [Vérifier lza disponibilité à la commande](ecommerce/CheckStock/PanierCheckStock/)
+- [Vérifier la disponibilité à la commande](ecommerce/CheckStock/PanierCheckStock/)
