@@ -28,9 +28,9 @@ Comme toute extension MEF, vous devrez ajouter un attribut `[Export]` sur la cla
 
 Une fois réalisée vous devrez déposer la dll avec cette classe dans votre dossier d'extensibilité, sous Ecommerce\Assemblies. Pour plus de renseignement sur les dossiers d'extensibilité, [consultez l'aide en ligne](https://www.altazion.dev/global/index.html#paths-importants).
 
-[!Dossier](checkstock-0.png)
+![Dossier](checkstock-0.png)
 
 ## Exemple
 
-[!Ajout](checkstock-1.png)
-[!Erreur](checkstock-2.png)
+![Ajout](checkstock-1.png)
+![Erreur](checkstock-2.png)
