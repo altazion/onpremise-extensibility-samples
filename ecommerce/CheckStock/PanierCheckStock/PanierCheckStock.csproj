@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E2D69A3-8631-4792-8D34-C81EC43FFB06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PanierCheckStock</RootNamespace>
+    <AssemblyName>PanierCheckStock</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CPoint.Equihira.CPoint.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPoint.Equihira.CPoint.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.DocBase.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\CPointSoftware-DocBase.18.10.29.19\lib\CPointSoftware.DocBase.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.DocBase.Extensibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\CPointSoftware-DocBase.18.10.29.19\lib\CPointSoftware.DocBase.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.ECommerce.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.ECommerce.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.ECommerce.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-commerce.20.3.4.2\lib\net45\CPointSoftware.ECommerce.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.Common, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-basebusiness.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.GestCom, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-gestcom.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.GestCom.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.Legal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.Legal.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.Logistique, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.Logistique.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Business.PointOfSale, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.PointOfSale.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Common, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-core.20.3.4.2\lib\net45\CPointSoftware.Equihira.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Equihira.Extensibility, Version=3.55.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-core.20.3.4.2\lib\net45\CPointSoftware.Equihira.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Faneon.Business, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Faneon.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Framework, Version=1.2.113.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\CPointSoftware-Framework.17.4.11.13\lib\CPointSoftware.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Framework.Web, Version=1.1.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Framework.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CPointSoftware.Tools, Version=1.2.114.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\CPointSoftware-Framework.17.4.11.13\lib\CPointSoftware.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="CreoIgnem.Otoma, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d75be6f448cf8fc, processorArchitecture=MSIL">
+      <HintPath>packages\creoignem-otoma.19.11.26.15\lib\net45\CreoIgnem.Otoma.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageResizer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\simplement-e-gestcom.20.3.4.2\lib\net45\ImageResizer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.5.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.2.5.1\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.KeyVault.Core.1.0.0\lib\net40\Microsoft.Azure.KeyVault.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Data.Edm.5.7.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Data.OData.5.7.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Services.Client, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Data.Services.Client.5.7.0\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=8.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\WindowsAzure.Storage.8.0.1\lib\net45\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=0.0.6356.21636, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\mongo-db-driver-creo.2.4.3\lib\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=0.0.6356.21643, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\mongo-db-driver-creo.2.4.3\lib\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=0.0.6356.21639, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
+      <HintPath>packages\mongo-db-driver-creo.2.4.3\lib\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>packages\Serilog.2.7.1\lib\net46\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.Datadog.Logs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a460801c7b1366bb, processorArchitecture=MSIL">
+      <HintPath>packages\Serilog.Sinks.Datadog.Logs.0.3.0\lib\net45\Serilog.Sinks.Datadog.Logs.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.PeriodicBatching, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>packages\Serilog.Sinks.PeriodicBatching.2.1.1\lib\net45\Serilog.Sinks.PeriodicBatching.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.4.4.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\System.Spatial.5.7.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="QuantiteLimiteCheckStock.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
