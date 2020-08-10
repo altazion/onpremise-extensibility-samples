@@ -7,3 +7,4 @@ Les modules d'extensibilités développés pour Commerce sont aussi utilisé pou
 
 ### Panier
 - [Vérifier la disponibilité à la commande](ecommerce/CheckStock/PanierCheckStock/)
+- [Ajouter des infos personnalisées](ecommerce/CartContent/CartLineCustomData/)
