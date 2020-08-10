@@ -16,6 +16,8 @@ namespace CartLineCustomData
         {
             var note = new Random().Next(4) + 1;
 
+            // add a random note to the line
+            // using unicode star symbols 
             return new InfoLignePanier()
             {
                 DonneePersonnalisee1 = new string('\u2605', note).PadRight(5, '\u2606')
