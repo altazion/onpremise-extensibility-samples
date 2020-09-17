@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CPoint.Equihira.CPoint.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPoint.Equihira.CPoint.Business.dll</HintPath>
+      <HintPath>packages\altazion-server.20.8.11.17\lib\net45\CPoint.Equihira.CPoint.Business.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.DocBase.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
       <HintPath>packages\CPointSoftware-DocBase.18.10.29.19\lib\CPointSoftware.DocBase.Business.dll</HintPath>
@@ -41,40 +41,40 @@
       <HintPath>packages\CPointSoftware-DocBase.18.10.29.19\lib\CPointSoftware.DocBase.Extensibility.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.ECommerce.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.ECommerce.Business.dll</HintPath>
+      <HintPath>packages\altazion-server.20.8.11.17\lib\net45\CPointSoftware.ECommerce.Business.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.ECommerce.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-commerce.20.3.4.2\lib\net45\CPointSoftware.ECommerce.Tools.dll</HintPath>
+      <HintPath>packages\altazion-commerce.20.8.11.17\lib\net45\CPointSoftware.ECommerce.Tools.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Equihira.Business.Common, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-basebusiness.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.Common.dll</HintPath>
+      <HintPath>packages\altazion-basebusiness.20.8.11.17\lib\net45\CPointSoftware.Equihira.Business.Common.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Equihira.Business.GestCom, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-gestcom.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.GestCom.dll</HintPath>
+      <HintPath>packages\altazion-gestcom.20.8.11.17\lib\net45\CPointSoftware.Equihira.Business.GestCom.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Equihira.Business.Legal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.Legal.dll</HintPath>
+      <HintPath>packages\altazion-server.20.8.11.17\lib\net45\CPointSoftware.Equihira.Business.Legal.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Equihira.Business.Logistique, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.Logistique.dll</HintPath>
+      <HintPath>packages\altazion-server.20.8.11.17\lib\net45\CPointSoftware.Equihira.Business.Logistique.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Equihira.Business.PointOfSale, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Equihira.Business.PointOfSale.dll</HintPath>
+      <HintPath>packages\altazion-server.20.8.11.17\lib\net45\CPointSoftware.Equihira.Business.PointOfSale.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Equihira.Common, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-core.20.3.4.2\lib\net45\CPointSoftware.Equihira.Common.dll</HintPath>
+      <HintPath>packages\altazion-core.20.8.11.17\lib\net45\CPointSoftware.Equihira.Common.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Equihira.Extensibility, Version=3.55.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-core.20.3.4.2\lib\net45\CPointSoftware.Equihira.Extensibility.dll</HintPath>
+      <HintPath>packages\altazion-core.20.8.11.17\lib\net45\CPointSoftware.Equihira.Extensibility.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Faneon.Business, Version=3.0.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Faneon.Business.dll</HintPath>
+      <HintPath>packages\altazion-server.20.8.11.17\lib\net45\CPointSoftware.Faneon.Business.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Framework, Version=1.2.113.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
       <HintPath>packages\CPointSoftware-Framework.17.4.11.13\lib\CPointSoftware.Framework.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Framework.Web, Version=1.1.255.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-server.20.3.4.2\lib\net45\CPointSoftware.Framework.Web.dll</HintPath>
+      <HintPath>packages\altazion-server.20.8.11.17\lib\net45\CPointSoftware.Framework.Web.dll</HintPath>
     </Reference>
     <Reference Include="CPointSoftware.Tools, Version=1.2.114.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
       <HintPath>packages\CPointSoftware-Framework.17.4.11.13\lib\CPointSoftware.Tools.dll</HintPath>
@@ -82,8 +82,11 @@
     <Reference Include="CreoIgnem.Otoma, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d75be6f448cf8fc, processorArchitecture=MSIL">
       <HintPath>packages\creoignem-otoma.19.11.26.15\lib\net45\CreoIgnem.Otoma.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.24.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlAgilityPack.1.11.24\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="ImageResizer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f98878649f439c2, processorArchitecture=MSIL">
-      <HintPath>packages\simplement-e-gestcom.20.3.4.2\lib\net45\ImageResizer.dll</HintPath>
+      <HintPath>packages\altazion-gestcom.20.8.11.17\lib\net45\ImageResizer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ApplicationInsights, Version=2.5.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.ApplicationInsights.2.5.1\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
