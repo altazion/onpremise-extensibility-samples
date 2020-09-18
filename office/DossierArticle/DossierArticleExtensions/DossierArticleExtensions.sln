@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DossierArticleExtensions", "DossierArticleExtensions.csproj", "{8860886B-9597-4FDD-AFD1-0473B274BBAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8860886B-9597-4FDD-AFD1-0473B274BBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8860886B-9597-4FDD-AFD1-0473B274BBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8860886B-9597-4FDD-AFD1-0473B274BBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8860886B-9597-4FDD-AFD1-0473B274BBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {918AF431-35E6-4664-BB0E-A28BB0FF395B}
+	EndGlobalSection
+EndGlobal
