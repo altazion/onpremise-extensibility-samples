@@ -25,3 +25,7 @@ Comme toute extension MEF, vous devrez ajouter un attribut `[Export]` sur la cla
 Une fois réalisée vous devrez déposer la dll avec cette classe dans votre dossier d'extensibilité, sous PosCentral\Assemblies. Pour plus de renseignement sur les dossiers d'extensibilité, [consultez l'aide en ligne](https://www.altazion.dev/global/index.html#paths-importants).
 
 ![Dossier](image-0.png)
+
+## Documentation
+
+Les détails concernant l'ajout d'informations dans les descentes/fiches produits du module Signage peuvent être consultées [dans la documentation en ligne](https://www.altazion.dev/signage/extensibility/api-catalogue.html#compl%C3%A9ter-les-informations-produits)
